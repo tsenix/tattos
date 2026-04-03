@@ -1688,15 +1688,16 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
   .header__logo.desc {
     display: flex;
-    flex: 0 0 136px;
-    width: 136px;
-    height: 136px
+    flex: 0 0 200px;
+    width: 200px;
+    height: 200px
   }
   .header__logo.mobile {
     display: none
   }
   .header__content {
-    flex: 1 1 auto
+    flex: 1 1 auto;
+    margin-bottom: 50px
   }
   .header__top {
     gap: 30px
@@ -1823,7 +1824,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     left: 0
   }
   .main-section {
-    padding: 70px 0 50px
+    padding: 0 0 50px
   }
   .main-section__body {
     flex-direction: row;
